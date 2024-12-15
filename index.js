@@ -11,3 +11,4 @@ document.querySelectorAll('.faq-box').forEach(box => {
     });
 });
 
+

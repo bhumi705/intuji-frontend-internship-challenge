@@ -40,6 +40,9 @@ a {
     padding: 20px 165px;
     background-color: #a4d7e9;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky; 
+    top: 0; 
+    z-index: 1000; 
 }
 
 .logo {
@@ -65,9 +68,11 @@ a {
     border: 0;
     color: black;
 }
+
 .auth-buttons .sign-in:hover {
     background-color: rgb(22, 132, 196);
 }
+
 .auth-buttons a {
     text-decoration: none;
     padding: 15px 20px;
@@ -80,9 +85,11 @@ a {
     background-color: #005fc5;
     color: #fff;
 }
+
 .auth-buttons a.start-free:hover {
     background-color: #004186;
 }
+
 /* Hero Section */
 .hero {
     position: relative;
