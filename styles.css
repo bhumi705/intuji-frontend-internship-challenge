@@ -421,6 +421,7 @@ a {
         gap: 10px;
     }
 }
+
 /* Content Section */
 .testimonial3 {
     float: right;
@@ -429,6 +430,14 @@ a {
     
     justify-content: space-between;
     
+}
+.features-container {
+    background-color: rgba(201, 231, 242, 1);
+    padding: 150px 0px 150px 0px;
+}
+.content {
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .save-money {
@@ -444,6 +453,7 @@ a {
 
 .feature-title {
     padding-left: 155px;
+    padding-right: 800px;
 }
 
 @media (max-width: 768px) {
